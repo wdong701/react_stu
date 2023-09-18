@@ -1,7 +1,16 @@
+/*
+ * @Author: dlwan1
+ * @Date: 2023-09-14 15:46:04
+ * @LastEditTime: 2023-09-18 10:53:25
+ * @LastEditors: dlwan1
+ * @Description: 
+ * @FilePath: \study_react\src\components\room-item\style.js
+ */
 import styled from "styled-components";
 
 
 export const ItemWrapper = styled.div`
+  flex-shrink: 0;
   box-sizing: border-box;
   width: ${props => props.itemWidth};
   padding: 8px;
