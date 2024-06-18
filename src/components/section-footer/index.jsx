@@ -1,11 +1,3 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-15 15:00:31
- * @LastEditTime: 2023-09-18 11:02:46
- * @LastEditors: dlwan1
- * @Description: 
- * @FilePath: \study_react\src\components\section-footer\index.jsx
- */
 import PropTypes from 'prop-types'
 import React, { memo } from 'react'
 import IconMoreArrow from '@/assets/svg/icon-more-arrow'

@@ -1,11 +1,3 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-14 19:35:54
- * @LastEditTime: 2023-09-15 15:03:37
- * @LastEditors: dlwan1
- * @Description: 
- * @FilePath: \study_react\src\views\home\child-components\home-section-4\index.jsx
- */
 import PropTypes from 'prop-types'
 import React, { memo } from 'react'
 

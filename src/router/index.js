@@ -1,11 +1,3 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-13 10:12:37
- * @LastEditTime: 2023-09-13 10:32:41
- * @LastEditors: dlwan1
- * @Description: 
- * @FilePath: \study_react\src\router\index.js
- */
 import React from "react"
 import { Navigate } from "react-router-dom"
 const Home = React.lazy(()=>import("@/views/home"))

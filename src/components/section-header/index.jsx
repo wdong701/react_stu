@@ -1,11 +1,3 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-14 10:54:55
- * @LastEditTime: 2023-09-14 11:10:25
- * @LastEditors: dlwan1
- * @Description: 
- * @FilePath: \study_react\src\components\section-header\index.jsx
- */
 import PropTypes from 'prop-types'
 import React, { memo } from 'react'
 import { SectionHeaderWrapper } from './style'

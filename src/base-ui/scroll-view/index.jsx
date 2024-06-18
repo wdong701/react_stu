@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import React, { memo, useEffect, useRef, useState } from 'react'
 import IconArrowLeft from '@/assets/svg/icon-arrow-left'
 import IconArrowRight from '@/assets/svg/icon-arrow-right'
@@ -58,7 +57,5 @@ const ScrollView = memo((props) => {
     </ViewWrapper>
   )
 })
-
-ScrollView.propTypes = {}
 
 export default ScrollView

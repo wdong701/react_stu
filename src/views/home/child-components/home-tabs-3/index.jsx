@@ -1,11 +1,3 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-15 11:28:01
- * @LastEditTime: 2023-09-15 15:05:24
- * @LastEditors: dlwan1
- * @Description: 
- * @FilePath: \study_react\src\views\home\child-components\home-tabs-3\index.jsx
- */
 import PropTypes from 'prop-types'
 import React, { memo, useCallback, useState } from 'react'
 import SectionHeader from '@/components/section-header/index'

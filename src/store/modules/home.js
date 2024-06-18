@@ -1,11 +1,3 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-13 14:23:00
- * @LastEditTime: 2023-09-18 10:44:13
- * @LastEditors: dlwan1
- * @Description: 
- * @FilePath: \study_react\src\store\modules\home.js
- */
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { getHomeDiscountData, getHomeGoodPriceData, getHomeHighScoreData, getHomeHotRecommendData, getHomeLongforData, getHomePlusData } from "../../services";
 

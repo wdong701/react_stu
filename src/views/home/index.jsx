@@ -1,15 +1,8 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-13 10:23:33
- * @LastEditTime: 2023-09-18 10:17:27
- * @LastEditors: dlwan1
- * @Description:  
- * @FilePath: \study_react\src\views\home\index.jsx
- */
 import React, { memo, useEffect } from 'react'
 import { HomeWapper } from "./style"
 import HomeBanner from './child-components/home-banner'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
+import { changeHeaderConfigAction } from '@/store/modules/main'
 import { fetchHomeDataAction } from '../../store/modules/home'
 import HomeSection4 from './child-components/home-section-4'
 import HomeTabs3 from './child-components/home-tabs-3'
@@ -32,6 +25,7 @@ const Home = memo(() => {
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(fetchHomeDataAction())
+    dispatch(changeHeaderConfigAction({ isFixed: true, isHome: true }))
   }, [dispatch])
 
   return (

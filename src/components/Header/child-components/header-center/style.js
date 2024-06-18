@@ -1,11 +1,3 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-13 16:12:46
- * @LastEditTime: 2023-09-13 17:55:32
- * @LastEditors: dlwan1
- * @Description: 
- * @FilePath: \study_react\src\components\Header\child-components\header-center\style.js
- */
 import styled from "styled-components";
 
 

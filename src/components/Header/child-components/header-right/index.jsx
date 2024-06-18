@@ -1,11 +1,3 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-13 16:13:39
- * @LastEditTime: 2023-09-14 09:25:45
- * @LastEditors: dlwan1
- * @Description: 
- * @FilePath: \study_react\src\components\Header\child-components\header-right\index.jsx
- */
 import React, { memo, useEffect, useState } from 'react'
 import { RightWrapper } from './style'
 import IconAvatar from '@/assets/svg/icon_avatar'

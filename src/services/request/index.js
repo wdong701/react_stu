@@ -1,11 +1,3 @@
-/*
- * @Author: dlwan1
- * @Date: 2023-09-13 15:19:06
- * @LastEditTime: 2023-09-14 10:24:25
- * @LastEditors: dlwan1
- * @Description: 
- * @FilePath: \study_react\src\services\request\index.js
- */
 import axios from "axios"
 import { BASE_URL, TIMEOUT } from './config';
 
